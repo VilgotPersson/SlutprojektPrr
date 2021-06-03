@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/vilgo/Downloads/MonogameTemplate-main/MonogameTemplate-main/Template/Template/Content/Flappy.png</SourceFile>
-  <SourceTime>2021-05-05T13:57:22.4807908+02:00</SourceTime>
-  <DestFile>C:/Users/vilgo/Downloads/MonogameTemplate-main/MonogameTemplate-main/Template/Template/Content/bin/Windows/Flappy.xnb</DestFile>
-  <DestTime>2021-05-05T13:58:19.4923695+02:00</DestTime>
+  <SourceFile>C:/Users/Elev/Downloads/SlutprojektPrr-main/SlutprojektPrr-main/MonogameTemplate-main/Template/Template/Content/Flappy.png</SourceFile>
+  <SourceTime>2021-05-07T09:34:47+02:00</SourceTime>
+  <DestFile>C:/Users/Elev/Downloads/SlutprojektPrr-main/SlutprojektPrr-main/MonogameTemplate-main/Template/Template/Content/bin/Windows/Flappy.xnb</DestFile>
+  <DestTime>2021-05-12T14:19:48.7423575+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T17:35:54+01:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
