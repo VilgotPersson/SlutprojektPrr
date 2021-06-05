@@ -41,24 +41,24 @@ namespace Template
         }
         protected override void Update(GameTime gameTime)
         {
-            //Hur rören rör sig, rör sig snabbare med varje rör
+            //Hur rören rör sig, Rör sig snabbare för varje rör som man klarar av
             PipeDown.X -= 4 + score;
             PipeUp.X -= 4 + score;
 
-            //Detta gör så att ju längre man flyger nedår desto snabbare går det
+            //Detta gör så att ju längre man flyger nedåt desto snabbare går det
             FlappyPos += snabbhet;
             snabbhet.Y += 0.25f;
 
             if (Keyboard.GetState().IsKeyDown(Keys.Space))
             {
-                //När man trycker på mellanslag så hoppar man upp 3f och sen så flyter man uppåt med 3f
+                //När man trycker på mellanslag så hoppar man upp 3f och sen så flyger man uppåt med 3f
                 FlappyPos.Y -= 3;
                 snabbhet.Y = -3f;
             }
 
             Rectangle playerRect = new Rectangle((int)FlappyPos.X, (int)FlappyPos.Y, Flappy1.Width, Flappy1.Height);
 
-            //Om man vidrör något rör eller där uppe/ där nere på skärmen så stängs spelet av
+            //Om flyger för långt upp eller ner så stängs spelet av. Om man träffar något av rören så stängs spelet av.
             if (playerRect.Intersects(PipeDown))
                 Exit();
 
